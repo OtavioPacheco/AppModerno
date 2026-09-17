@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Pôster -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/velocipastor"
+            android:contentDescription="Pôster do filme"/>
+
+        <!-- Conteúdo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Título -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The VelociPastor"
+                android:textColor="@color/text_primary"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <!-- Informações -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="•"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="1h 15min"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="•"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Comédia"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <!-- Nota -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="★ 10.1/10"
+                android:textColor="#FFD700"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <!-- Botão assistir -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTrailer"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:text="▶  Assistir trailer"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"/>
+
+            <!-- Sobre -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Sobre o filme"
+                android:textColor="@color/text_primary"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Após a morte de seu pai, um padre descobre que possui uma habilidade bastante incomum: ele consegue se transformar em um velociraptor. Agora, ele precisa aprender a controlar seus novos poderes enquanto enfrenta criminosos e uma perigosa organização."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"/>
+
+            <!-- Gêneros -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Gêneros"
+                android:textColor="@color/text_primary"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Comédia  •  Ação  •  Terror"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"/>
+
+            <!-- Diretor -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Direção"
+                android:textColor="@color/text_primary"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Brendan Steere"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"/>
+
+            <!-- Espaço final -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

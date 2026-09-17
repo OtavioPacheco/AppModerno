@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
     int[] movies = {
 
-            R.drawable.sharknado,
+            R.drawable.velocipastor,
 
             R.drawable.homem_aranha,
 
-            R.drawable.velocipastor
+            R.drawable.sharknado
 
     };
 
