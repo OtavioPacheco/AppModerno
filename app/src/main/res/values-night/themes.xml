@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.AppModerno" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#0D47A1</item>
+
+        <item name="colorSecondary">#004D40</item>
+
+        <item name="android:colorBackground">#121212</item>
+
+        <item name="colorSurface">#1E1E1E</item>
+
+    </style>
+
+</resources>

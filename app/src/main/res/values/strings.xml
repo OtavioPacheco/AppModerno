@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">StreamFlix</string>
+
+    <string name="featured">Em Destaque</string>
+
+    <string name="popular">Populares</string>
+
+</resources>
